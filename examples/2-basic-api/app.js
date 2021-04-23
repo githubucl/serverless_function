@@ -19,7 +19,7 @@ const fetchData = async () => {
                 </article>`
             )
 
-        })
+        }).join('')
         console.log(products);
         result.innerHTML = products
     } catch (error) {
